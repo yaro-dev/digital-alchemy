@@ -36,12 +36,16 @@ const AboutDetails = () => {
                     </div>
                 </ItemLayout>
 
-                <ItemLayout className={"col-span-8 !p-0"}>
-                    <img className='w-full h-auto' src='https://github-readme-stats.vercel.app/api?username=yaro-dev&theme=transparent&hide_border=true&title_color=FEFE58&text_color=ffffff&icon_color=FEFE58&text_bold=false' loading='lazy' alt='github-stats'></img>
+                <ItemLayout className={"col-span-4 !p-0"}>
+                    <img className='w-full h-auto' src='https://github-readme-stats.vercel.app/api/top-langs/?username=yaro-dev&theme=transparent&hide_border=true&title_color=FEFE58&text_color=ffffff&icon_color=FEFE58&text_bold=false' loading='lazy' alt='github-stats'></img>
                 </ItemLayout>
 
                 <ItemLayout className={"col-span-8 !p-0"}>
                     <img className='w-full h-auto' src='https://github-readme-stats.vercel.app/api?username=yaro-dev&theme=transparent&hide_border=true&title_color=FEFE58&text_color=ffffff&icon_color=FEFE58&text_bold=false' loading='lazy' alt='github-stats'></img>
+                </ItemLayout>
+
+                <ItemLayout className={"col-span-full"}>
+                    <img className='w-full h-auto' src='https://skillicons.dev/icons?i=js,typescript,html,css,sass,tailwind,react,threejs,vite,vercel,next,php,mysql,nodejs,npm,express,wordpress,git,github,webpack,figma,python,linux,figma' loading='lazy' alt='github-stats'></img>
                 </ItemLayout>
 
             </div>
